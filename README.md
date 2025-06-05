@@ -7,10 +7,14 @@ This repo contains documentation for the Robotics 88 entire open source drone st
 python -m venv .env
 source .env/bin/activate
 pip install -r requirements.txt
+```
+To view changes locally:
+```
 mkdocs serve
 ```
 
-## deploy changes
+To deploy changes:
 ```
 mkdocs gh-deploy
 ```
+This builds and pushes changes to the gh-pages branch, which is what Github Pages hosts.
