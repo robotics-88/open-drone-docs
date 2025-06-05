@@ -1,0 +1,42 @@
+site_name: Open Drone Stack
+site_description: Modular open source drone system using ROS 2 and a REST API for high level mission control.
+site_url: https://robotics-88.github.io/open-drone-docs
+repo_url: https://github.com/robotics-88/open-drone-docs
+repo_name: robotics-88/open-drone-docs
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.tabs.link
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: indigo
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Setup Guide: setup.md
+  - Architecture: architecture.md
+  - Usage: usage.md
