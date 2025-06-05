@@ -9,3 +9,8 @@ source .env/bin/activate
 pip install -r requirements.txt
 mkdocs serve
 ```
+
+## deploy changes
+```
+mkdocs gh-deploy
+```
