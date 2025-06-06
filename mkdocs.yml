@@ -6,8 +6,11 @@ repo_name: robotics-88/open-drone-docs
 
 theme:
   name: material
+  logo: images/icon.png
   features:
+    - navigation.sections
     - navigation.tabs
+    - navigation.indexes
     - navigation.footer
     - navigation.sections
     - content.code.copy
@@ -15,14 +18,27 @@ theme:
     - search.highlight
     - search.suggest
   palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
+      primary: indigo
       accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
+      primary: black
       accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  favicon: images/icon.png
+  font:
+    text: Roboto
 
 markdown_extensions:
   - toc:
@@ -38,13 +54,15 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Setup Guide: setup.md
-  - IRL Drones:
-      - Overview: drones/index.md
-      - Prerequisite hardware: drones/hardware.md
-      - Flight stack setup: drones/flightstack.md
-      - Useful support software: drones/support.md
-      - Frontend: drones/frontend.md
+  - Setup Guide:
+      - Overview: setup/index.md
+      - IRL Drones:
+          - Overview: setup/drones/index.md
+          - Prerequisite hardware: setup/drones/hardware.md
+          - Compatible drones: setup/drones/models.md
+          - Flight stack setup: setup/drones/flightstack.md
+          - Useful support software: setup/drones/support.md
+          - Frontend: setup/drones/frontend.md
   - Usage: usage.md
   - Development:
       - Overview: development/index.md
