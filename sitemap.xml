@@ -2,18 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://robotics-88.github.io/open-drone-docs/</loc>
-         <lastmod>2025-06-05</lastmod>
-    </url>
-    <url>
-         <loc>https://robotics-88.github.io/open-drone-docs/architecture/</loc>
-         <lastmod>2025-06-05</lastmod>
+         <lastmod>2025-06-06</lastmod>
     </url>
     <url>
          <loc>https://robotics-88.github.io/open-drone-docs/setup/</loc>
-         <lastmod>2025-06-05</lastmod>
+         <lastmod>2025-06-06</lastmod>
     </url>
     <url>
          <loc>https://robotics-88.github.io/open-drone-docs/usage/</loc>
-         <lastmod>2025-06-05</lastmod>
+         <lastmod>2025-06-06</lastmod>
+    </url>
+    <url>
+         <loc>https://robotics-88.github.io/open-drone-docs/development/</loc>
+         <lastmod>2025-06-06</lastmod>
+    </url>
+    <url>
+         <loc>https://robotics-88.github.io/open-drone-docs/development/missions/</loc>
+         <lastmod>2025-06-06</lastmod>
+    </url>
+    <url>
+         <loc>https://robotics-88.github.io/open-drone-docs/development/modules/</loc>
+         <lastmod>2025-06-06</lastmod>
+    </url>
+    <url>
+         <loc>https://robotics-88.github.io/open-drone-docs/drones/</loc>
+         <lastmod>2025-06-06</lastmod>
+    </url>
+    <url>
+         <loc>https://robotics-88.github.io/open-drone-docs/drones/flightstack/</loc>
+         <lastmod>2025-06-06</lastmod>
+    </url>
+    <url>
+         <loc>https://robotics-88.github.io/open-drone-docs/drones/frontend/</loc>
+         <lastmod>2025-06-06</lastmod>
+    </url>
+    <url>
+         <loc>https://robotics-88.github.io/open-drone-docs/drones/hardware/</loc>
+         <lastmod>2025-06-06</lastmod>
+    </url>
+    <url>
+         <loc>https://robotics-88.github.io/open-drone-docs/drones/support/</loc>
+         <lastmod>2025-06-06</lastmod>
     </url>
 </urlset>
