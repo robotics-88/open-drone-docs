@@ -8,6 +8,7 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.footer
     - navigation.sections
     - content.code.copy
     - content.tabs.link
@@ -38,5 +39,14 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Setup Guide: setup.md
-  - Architecture: architecture.md
+  - IRL Drones:
+      - Overview: drones/index.md
+      - Prerequisite hardware: drones/hardware.md
+      - Flight stack setup: drones/flighstack.md
+      - Useful support software: drones/support.md
+      - Frontend: drones/frontend.md
   - Usage: usage.md
+  - Development:
+      - Overview: development/index.md
+      - Missions: development/missions.md
+      - Custom modules: development/modules.md
