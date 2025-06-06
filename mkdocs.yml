@@ -42,7 +42,7 @@ nav:
   - IRL Drones:
       - Overview: drones/index.md
       - Prerequisite hardware: drones/hardware.md
-      - Flight stack setup: drones/flighstack.md
+      - Flight stack setup: drones/flightstack.md
       - Useful support software: drones/support.md
       - Frontend: drones/frontend.md
   - Usage: usage.md
