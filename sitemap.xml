@@ -5,10 +5,6 @@
          <lastmod>2025-06-06</lastmod>
     </url>
     <url>
-         <loc>https://robotics-88.github.io/open-drone-docs/setup/</loc>
-         <lastmod>2025-06-06</lastmod>
-    </url>
-    <url>
          <loc>https://robotics-88.github.io/open-drone-docs/usage/</loc>
          <lastmod>2025-06-06</lastmod>
     </url>
@@ -25,23 +21,31 @@
          <lastmod>2025-06-06</lastmod>
     </url>
     <url>
-         <loc>https://robotics-88.github.io/open-drone-docs/drones/</loc>
+         <loc>https://robotics-88.github.io/open-drone-docs/setup/</loc>
          <lastmod>2025-06-06</lastmod>
     </url>
     <url>
-         <loc>https://robotics-88.github.io/open-drone-docs/drones/flightstack/</loc>
+         <loc>https://robotics-88.github.io/open-drone-docs/setup/drones/</loc>
          <lastmod>2025-06-06</lastmod>
     </url>
     <url>
-         <loc>https://robotics-88.github.io/open-drone-docs/drones/frontend/</loc>
+         <loc>https://robotics-88.github.io/open-drone-docs/setup/drones/flightstack/</loc>
          <lastmod>2025-06-06</lastmod>
     </url>
     <url>
-         <loc>https://robotics-88.github.io/open-drone-docs/drones/hardware/</loc>
+         <loc>https://robotics-88.github.io/open-drone-docs/setup/drones/frontend/</loc>
          <lastmod>2025-06-06</lastmod>
     </url>
     <url>
-         <loc>https://robotics-88.github.io/open-drone-docs/drones/support/</loc>
+         <loc>https://robotics-88.github.io/open-drone-docs/setup/drones/hardware/</loc>
+         <lastmod>2025-06-06</lastmod>
+    </url>
+    <url>
+         <loc>https://robotics-88.github.io/open-drone-docs/setup/drones/models/</loc>
+         <lastmod>2025-06-06</lastmod>
+    </url>
+    <url>
+         <loc>https://robotics-88.github.io/open-drone-docs/setup/drones/support/</loc>
          <lastmod>2025-06-06</lastmod>
     </url>
 </urlset>
