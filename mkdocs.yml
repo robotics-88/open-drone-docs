@@ -4,6 +4,10 @@ site_url: https://robotics-88.github.io/open-drone-docs
 repo_url: https://github.com/robotics-88/open-drone-docs
 repo_name: robotics-88/open-drone-docs
 
+plugins:
+  - search
+  - mermaid2
+
 theme:
   name: material
   logo: images/icon.png
@@ -47,7 +51,12 @@ markdown_extensions:
   - codehilite
   - footnotes
   - tables
-  - pymdownx.superfences
+  - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
   - pymdownx.tabbed
   - pymdownx.highlight
   - pymdownx.details
@@ -63,7 +72,12 @@ nav:
           - Flight stack setup: setup/drones/flightstack.md
           - Useful support software: setup/drones/support.md
           - Frontend: setup/drones/frontend.md
-  - Usage: usage.md
+  - System:
+      - Overview: system/index.md
+      - Usage: system/usage.md
+      - Architecture: 
+          - ROS 2 nodes: system/architecture/nodes.md
+          - State machine: system/architecture/statemachine.md
   - Development:
       - Overview: development/index.md
       - Missions: development/missions.md
