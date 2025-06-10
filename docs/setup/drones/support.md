@@ -1,4 +1,4 @@
-# support software
+# Support Software
 These are support libraries we use to make life easier. E.g., simplify ssh, file access, video streaming, etc.
 
 ## mDNS
@@ -14,3 +14,7 @@ sudo systemctl enable avahi-daemon
 sudo systemctl start avahi-daemon
 ```
 From here on, instructions will assume the drone can be pinged/ssh'd at `decco@drone.local`. If you skip this step, replace this with the usual `decco@ipaddr`.
+
+## RTSP stream
+
+## File Manager

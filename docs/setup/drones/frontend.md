@@ -1,10 +1,10 @@
-# frontend
+# Frontend
 We have provided a generic frontend for accessing drone status and sending missions. This is akin to something like QGroundControl, except that where QGC is targeted for manual and low-level drone control, this interface is targeted for high-level mission control.
 
-## REST server
+## REST Server
 
 
-### Start on boot.
+### Start on Boot
 Make this file `sudo nano /etc/systemd/system/drone-server.service` and paste in it:
 ```
 [Unit]

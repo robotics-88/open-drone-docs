@@ -67,18 +67,18 @@ nav:
       - Overview: setup/index.md
       - IRL Drones:
           - Overview: setup/drones/index.md
-          - Prerequisite hardware: setup/drones/hardware.md
-          - Compatible drones: setup/drones/models.md
-          - Flight stack setup: setup/drones/flightstack.md
-          - Useful support software: setup/drones/support.md
+          - Prerequisite Hardware: setup/drones/hardware.md
+          - Compatible Drones: setup/drones/models.md
+          - Flight Stack Setup: setup/drones/flightstack.md
+          - Useful Support Software: setup/drones/support.md
           - Frontend: setup/drones/frontend.md
   - System:
       - Overview: system/index.md
       - Usage: system/usage.md
       - Architecture: 
-          - ROS 2 nodes: system/architecture/nodes.md
-          - State machine: system/architecture/statemachine.md
+          - ROS 2 Nodes: system/architecture/nodes.md
+          - State Machine: system/architecture/statemachine.md
   - Development:
       - Overview: development/index.md
       - Missions: development/missions.md
-      - Custom modules: development/modules.md
+      - Custom Modules: development/modules.md

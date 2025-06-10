@@ -1,4 +1,4 @@
-# task manager: state machine
+# Task Manager: State Machine
 
 The primary control loop is the state machine in the task manager node. This state machine is described in the diagram below:
 
@@ -28,8 +28,8 @@ stateDiagram
    LANDING --> COMPLETE : on arm -> disarm
 ```
 
-## states
+## States
 describe all
 
-## events
+## Events
 describe all
