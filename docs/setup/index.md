@@ -1,5 +1,7 @@
 # Setup Guide
 
+The flight stack can be tested with physical hardware or entirely in simulation. (point to hardware and sim docs)
+
 ## Prerequisites
 
 - Ubuntu 22.04
@@ -20,7 +22,4 @@ colcon build
 
 ## Launch
 
-```bash
-source install/setup.bash
-ros2 launch task_manager bringup.launch.py
-```
+

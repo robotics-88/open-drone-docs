@@ -1,4 +1,4 @@
-# Flight Stack
+# Flight Stack Setup
 
 If you've confirmed your hardware is compatible, the next step is configuring core software.
 

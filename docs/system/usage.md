@@ -1,4 +1,4 @@
-# Usage Guide
+# Usage
 
 ## Starting the Stack
 
