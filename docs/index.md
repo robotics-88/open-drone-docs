@@ -24,15 +24,17 @@ The Open Drone Stack is composed of:
 
 The 2 most critical repos are [task-manager](https://github.com/robotics-88/task-manager) and [vehicle-launch](https://github.com/robotics-88/vehicle-launch). Everything else in the stack is technically optional, but these are required for basic node and mission startup. However, to make the most use of the stack, we recommend at minimum the following:
 
-* [task-manager](https://github.com/robotics-88/task-manager): state machine, receives and executes mission, manages flight controller
+* [task-manager](https://github.com/robotics-88/task-manager): state machine, receives and processes mission, manages flight controller params
     - *This is where you add new missions*
 * [vehicle-launch](https://github.com/robotics-88/vehicle-launch): launch and vehicle config management
     - *This is where you set up new vehicle configs or change perception modules*
+* [path_manager](https://github.com/robotics-88/path-manager): takes task manager mission outputs and converts those goals to executable MAVROS setpoints (can be used with or without SLAM &path planner)
+    - ***This is where you get to decide how smart the drone really is, at minimum by enabling path planning, up to enabling full decision-making about what constitutes a good destination***
 * [opencv_cam](https://github.com/robotics-88/opencv_cam): camera manager, starts/stops mp4 recording on arm/disarm
 * [bag_recorder_2](https://github.com/robotics-88/bag_recorder_2): bag recorder, starts/stops ROS2 mcap on arm/disarm
 * [image_to_v4l2loopback_ros2](https://github.com/robotics-88/image_to_v4l2loopback_ros2): makes ROS2 image topic available for RTSP streaming
 
-Setup for additional perception capabilities such as SLAM, path planning, exploration, thermal image processing, and more are detailed in the [setup guide](setup/index.md).
+Setup for additional perception capabilities such as SLAM, path planning, exploration, thermal image processing, and more are detailed in the [Setup Guide](setup/index.md).
 
 ### Data Flow
 
