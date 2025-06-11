@@ -13,7 +13,7 @@ This page details all currently available ROS2 nodes, both core and optional.
     - ***This is where you get to decide how smart the drone really is, at minimum by enabling path planning, up to enabling full decision-making about what constitutes a good destination***
 
 ### Data Management
-* [opencv_cam](https://github.com/robotics-88/opencv_cam): camera manager, starts/stops mp4 recording on arm/disarm
+* [opencv_cam](https://github.com/robotics-88/opencv_cam): camera manager, starts/stops mp4 recording on arm/disarm, uses Nvidia hardware encoding if available
 * [bag_recorder_2](https://github.com/robotics-88/bag_recorder_2): bag recorder, starts/stops ROS2 mcap on arm/disarm
 * [image_to_v4l2loopback_ros2](https://github.com/robotics-88/image_to_v4l2loopback_ros2): makes ROS2 image topic available for RTSP streaming
 

@@ -8,8 +8,8 @@ stateDiagram
 
    accTitle: State machine diagram for Open Drone Core
 
-   classDef system fill:white
-   
+   classDef system fill:var(--md-default-bg-color),stroke:#555,color:var(--md-default-fg-color)
+
    [*] --> INITIALIZING:::system
    INITIALIZING --> PREFLIGHT_CHECKS:::system
    PREFLIGHT_CHECKS--> READY:::system : if ready to arm

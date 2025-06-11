@@ -79,8 +79,10 @@ nav:
       - Usage: system/usage.md
       - Architecture: 
           - ROS 2 Nodes: system/architecture/nodes.md
+          - Data Flow: system/architecture/dataflow.md
           - State Machine: system/architecture/statemachine.md
   - Development:
       - Development: development/index.md
       - Missions: development/missions.md
       - Custom Modules: development/modules.md
+      - Decision-Making: development/decisionmaking.md
