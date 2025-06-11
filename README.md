@@ -13,8 +13,4 @@ To view changes locally:
 mkdocs serve
 ```
 
-To deploy changes:
-```
-mkdocs gh-deploy
-```
-This builds and pushes changes to the gh-pages branch, which is what Github Pages hosts.
+Changes are automatically deployed once merged to main.
