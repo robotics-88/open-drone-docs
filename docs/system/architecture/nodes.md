@@ -36,5 +36,8 @@ This page details all currently available ROS2 nodes, both core and optional.
 ### Sensors
 Sensor specific ROS wrappers:
 
+* Livox
+    - [Livox-SDK2](https://github.com/Livox-SDK/Livox-SDK2): Livox SDK
+    - [livox-ros-driver2](https://github.com/Livox-SDK/livox_ros_driver2): Livox ROS wrapper (ROS1/2)
 * [seek-thermal](https://github.com/robotics-88/seek-thermal): ROS2 wrapper for this [thermal camera](https://www.thermal.com/mosaic-core.html)
 * [i2c_temperature](https://github.com/robotics-88/i2c_temperature): reads sensor data from [this](https://www.adafruit.com/product/4821)
