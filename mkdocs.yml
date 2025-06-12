@@ -74,6 +74,11 @@ nav:
           - Flight Stack Setup: setup/drones/flightstack.md
           - Useful Support Software: setup/drones/support.md
           - Frontend: setup/drones/frontend.md
+      - Sim Drones:
+          - Sim Drones: setup/simulation/index.md
+          - ArduPilot: setup/simulation/ardupilot.md
+          - AirSim: setup/simulation/airsim.md
+          - Gazebo: setup/simulation/gazebo.md
   - System:
       - System: system/index.md
       - Usage: system/usage.md

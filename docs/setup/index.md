@@ -1,25 +1,13 @@
 # Setup Guide
 
-The flight stack can be tested with physical hardware or entirely in simulation. (point to hardware and sim docs)
+The flight stack can be tested with physical hardware or entirely in simulation. For hardware setup, start [here](drones/index.md). For simulation setup, start [here](simulation/index.md).
 
 ## Prerequisites
+The machine where the flight stack runs, on drone or in sim on a computer, must be running Ubuntu 22.04. All dependent software including ROS2 will be installed with the setup script. To summarize, we require:
 
 - Ubuntu 22.04
 - ROS 2 Humble
 - `colcon`, `vcs`, `python3-pip`
 - Git
 
-## Clone and Build
-
-```bash
-sudo apt install python3-colcon-common-extensions python3-vcstool
-git clone https://github.com/robotics-88/open-drone-stack.git
-cd open-drone-stack
-vcs import < drone.repos
-rosdep install --from-paths src --ignore-src -r -y
-colcon build
-```
-
-## Launch
-
-
+TODO upgrade ROS version.
