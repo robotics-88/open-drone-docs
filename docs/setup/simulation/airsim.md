@@ -72,7 +72,7 @@ colcon build
 Start Unreal:
 ```bash
 cd ~/src/Unreal
-./Engine/Binaries/UnrealEditor
+./Engine/Binaries/Linux/UnrealEditor
 ```
 If running for the first time, you'll need to use the project browser to locate the R88 world. If you check "open last project on start," then next time you run this terminal command, it will take you straight to the sim.
 

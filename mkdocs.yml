@@ -65,11 +65,12 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Quick Start: quickstart.md
   - Setup Guide:
       - Setup Guide: setup/index.md
       - IRL Drones:
           - IRL Drones: setup/drones/index.md
-          - Hardware: setup/drones/hardware.md
+          - Config: setup/drones/config.md
           - Compatible Drones: setup/drones/models.md
           - Flight Stack Setup: setup/drones/flightstack.md
           - Useful Support Software: setup/drones/support.md
@@ -79,6 +80,8 @@ nav:
           - ArduPilot: setup/simulation/ardupilot.md
           - AirSim: setup/simulation/airsim.md
           - Gazebo: setup/simulation/gazebo.md
+      - Custom:
+          - Custom: setup/custom/index.md
   - System:
       - System: system/index.md
       - Usage: system/usage.md
