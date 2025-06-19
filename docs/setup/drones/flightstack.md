@@ -15,3 +15,6 @@ colcon build
 source ~/.bashrc
 ```
 
+## Systemd Service
+
+Technically optional, but it makes things simpler for flight tests. TODO deets.
