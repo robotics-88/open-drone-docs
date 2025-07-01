@@ -14,7 +14,7 @@ export PATH=/usr/lib/ccache:$PATH
 ```
 
 !!! note
-    The ArduPilot tools script installs a conflicting version of empy (conflicts with mavros). Fix it with `pip install empy==3.3.4`.
+    For a long time, ArduPilot tools script installs a conflicting version of empy (conflicts with mavros). If you get em/empy errors, fix it with `pip install empy==3.3.4`. Recently it seems to install a conflicting version of setuptools. Fix it with `pip install 'setuptools<66' --user`.
 
 ## Usage
 To use in sim, run this for AirSim:
