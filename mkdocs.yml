@@ -96,5 +96,5 @@ nav:
   - Development:
       - Development: development/index.md
       - Missions: development/missions.md
-      - Custom Modules: development/modules.md
+      - Perception Modules: development/modules.md
       - Decision-Making: development/decisionmaking.md
