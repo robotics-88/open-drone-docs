@@ -5,6 +5,9 @@
 There is a support script to install, build, and launch everything at once.
 
 ```bash
+mkdir ~/src
+cd ~/src
+git clone https://github.com/robotics-88/open-drone-core.git
 cd open-drone-core
 ./quickstart.sh
 ```

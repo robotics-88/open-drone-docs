@@ -1,6 +1,8 @@
 # Config
 
-Vehicle config files are `yaml` files describing the flight controller and sensors on a given platform. These live in [`vehicle_launch/config/vehicles/`](https://github.com/robotics-88/vehicle-launch/tree/main/config). The format is:
+Vehicle config files are `yaml` files describing the flight controller and sensors on a given platform. These live in [`vehicle_launch/config/vehicles/`](https://github.com/robotics-88/vehicle-launch/tree/main/config). We provide the config files for the Robotics 88 drones, Decco and Ecco, but other drones require adding your own config.
+
+The format is:
 
 ```yaml
 drone_id: decco_001

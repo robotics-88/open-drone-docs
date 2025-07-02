@@ -10,7 +10,8 @@ The machine where the flight stack runs, on drone or in sim on a computer, must 
 - `colcon`, `vcs`, `python3-pip`
 - Git
 
-TODO upgrade ROS version.
+!!! info
+    Future work: upgrade to ROS2 Kilted.
 
 ## Setup Overview
 Open drone setup includes cloning the ROS2 workspace, setting up a sim environment, and launching for the first time. If using the frontend, you can proceed to launching your first setpoint mission through the map interface. If you are setting up a physical vehicle of your own, there is additional vehicle config setup.

@@ -74,9 +74,9 @@ nav:
       - Setup Guide: setup/index.md
       - IRL Drones:
           - IRL Drones: setup/drones/index.md
-          - Config: setup/drones/config.md
           - Compatible Drones: setup/drones/models.md
           - Flight Stack Setup: setup/drones/flightstack.md
+          - Config: setup/drones/config.md
           - Useful Support Software: setup/drones/support.md
           - Frontend: setup/drones/frontend.md
       - Sim Drones:
