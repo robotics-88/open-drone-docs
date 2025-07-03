@@ -1,0 +1,10 @@
+/* Make all headers bold */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold !important;
+}
+
+/* Optional: Make page titles in navigation or cards bold too */
+.md-nav__link,
+.md-typeset .md-content__title {
+  font-weight: bold !important;
+}

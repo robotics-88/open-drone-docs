@@ -44,7 +44,10 @@ theme:
         name: Switch to light mode
   favicon: images/icon.png
   font:
-    text: Roboto
+    text: Helevetica Neue
+
+extra_css:
+  - styles/extra.css
 
 markdown_extensions:
   - toc:
