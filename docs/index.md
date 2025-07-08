@@ -3,7 +3,7 @@
 !!! warning
     WORK IN PROGRESS (docs and code): For a ready-to-fly version, check back 8-1-25.
 
-Welcome to the Open Drone Stack — a modular, ROS2-based system for autonomous drones. The full stack includes not only the ROS code to provide drone autonomy, but also a basic frontend and the on-drone server connection. Follow the complete [Setup Guide](setup/index.md) to use our stack as is, or jump to [Development](development/index.md) to start modifying for your needs!
+Welcome to the Open Drone Stack — a modular, ROS2-based system for autonomous drones. The full stack includes not only the ROS code to provide drone autonomy, but also a basic frontend and the on-drone server connection. Follow the complete [Setup Guide](setup/index.md) to use our stack as is, or jump to [Development](development/index.md) to learn how to set custom missions and more for your application!
 
 ## Overview
 

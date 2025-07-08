@@ -56,6 +56,9 @@ markdown_extensions:
   - codehilite
   - footnotes
   - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.superfences:
         # make exceptions to highlighting of code:
       custom_fences:
@@ -101,3 +104,7 @@ nav:
       - Missions: development/missions.md
       - Perception Modules: development/modules.md
       - Decision-Making: development/decisionmaking.md
+  - Post-Flight Analytics:
+      - Post-Flight Analytics: analytics/index.md
+      - LiDAR: analytics/lidar.md
+      - Video: analytics/video.md
