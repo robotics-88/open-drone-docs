@@ -3,7 +3,25 @@
 !!! warning
     WORK IN PROGRESS (docs and code): For a ready-to-fly version, check back 8-1-25.
 
-Welcome to the Open Drone Stack — a modular, ROS2-based system for autonomous drones. The full stack includes not only the ROS code to provide drone autonomy, but also a basic frontend and the on-drone server connection. Follow the complete [Setup Guide](setup/index.md) to use our stack as is, or jump to [Development](development/index.md) to learn how to set custom missions and more for your application!
+Welcome to the Open Drone Stack — a modular, ROS2-based system for autonomous drones. The full stack includes not only the ROS code to provide drone autonomy, but also a basic frontend and drone<-->server connection. Follow the complete [Setup Guide](setup/index.md) to use our stack as is, or jump to [Development](development/index.md) to learn how to set custom missions and more for your application!
+
+## Use Cases
+
+This system is designed for versatility, from research labs to commercial deployments. Our goal is to make advanced autonomy accessible: even a novice roboticist should be able to go from a newly built drone to custom autonomous missions in under an hour (and by custom, we mean a little to a lot more than a basic lawnmower pattern).
+
+### Example Missions
+
+**Thermal Hotspot Mapping**
+
+This custom mission performs a relatively basic flight pattern, but enforces required thermal perception modules. TODO pic.
+
+**Trail Following**
+
+This custom mission enables a new flight pattern in which the drone identifies and follows trails. TODO pic.
+
+**Species Mapping**
+
+This custom mission uses our path manager's 'adaptive' lawnmower flight pattern, which adjusts waypoints based on user-defined decision criteria. We add a new criteria to push the flight path toward species of interest. TODO pic.
 
 ## Overview
 
