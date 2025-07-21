@@ -76,5 +76,13 @@ void ClassName::startParamMonitoring() {
 }
 ```
 
+Finally, insert the flag in your node's process:
+```c
+// at the top of your primary method
+if (!is_active_) {
+    return;
+}
+```
+
 ## Python
 TODO
