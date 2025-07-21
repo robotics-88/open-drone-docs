@@ -9,7 +9,7 @@ mkdir ~/src
 cd ~/src
 git clone https://github.com/robotics-88/open-drone-core.git
 cd open-drone-core
-./quickstart.sh
+./scripts/quickstart.sh
 ```
 
 This brings up Gazebo, ArduCopter, ROS2 nodes, and the frontend, even if you start from a fresh Ubuntu install without ROS2. Should look like this when launching is complete:

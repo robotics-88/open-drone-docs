@@ -8,7 +8,7 @@ If you haven't yet run
 cd ~/src
 git clone https://github.com/robotics-88/open-drone-core.git
 cd open-drone-core
-./setup_workspace.sh -s
+./scripts/setup_workspace.sh -s
 colcon build
 ```
 
