@@ -2,3 +2,30 @@
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold !important;
 }
+
+.card-link {
+  display: block;
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.card-icon {
+  font-size: 2rem;
+  line-height: 1;
+}

@@ -11,17 +11,45 @@ This system is designed for versatility, from research labs to commercial deploy
 
 ### Example Missions
 
-**Thermal Hotspot Mapping**
+<div class="grid cards">
 
-This custom mission performs a relatively basic flight pattern, but enforces required thermal perception modules. TODO pic.
+  <a class="card-link" href="system/missions/#thermal-mapping">
+    <div class="card-content">
+      <span class="md-icon" style="font-size: 2rem;">🔥</span>
+      <h3>Thermal Mapping</h3>
+      <p>This custom mission performs a relatively basic flight pattern, but enforces required thermal perception modules and produces real-time thermal detections.</p>
+      <span class="md-button">→ Learn more</span>
+    </div>
+  </a>
 
-**Trail Following**
+  <a class="card-link" href="system/missions/#tpowerline-following">
+    <div class="card-content">
+      <span class="md-icon" style="font-size: 2rem;">🛠️</span>
+      <h3>Powerline Following</h3>
+      <p>Uses LiDAR to identify and follow a powerline, producing a vegetation encroachment map.</p>
+      <span class="md-button">→ Learn more</span>
+    </div>
+  </a>
 
-This custom mission enables a new flight pattern in which the drone identifies and follows trails. TODO pic.
+  <a class="card-link" href="system/missions/#trail-following">
+    <div class="card-content">
+      <span class="md-icon" style="font-size: 2rem;">🛠️</span>
+      <h3>Trail Following</h3>
+      <p>This custom mission enables a new flight pattern in which the drone identifies and follows trails.</p>
+      <span class="md-button">→ Learn more</span>
+    </div>
+  </a>
 
-**Species Mapping**
+  <a class="card-link" href="system/missions/#subcanopy-navigation">
+    <div class="card-content">
+      <span class="md-icon" style="font-size: 2rem;">🌲</span>
+      <h3>Subcanopy Navigation</h3>
+      <p>This custom mission uses our path manager's 'adaptive' lawnmower flight pattern, which adjusts waypoints based on user-defined decision criteria. E.g., add a new criteria to push the flight path toward species of interest.</p>
+      <span class="md-button">→ Learn more</span>
+    </div>
+  </a>
 
-This custom mission uses our path manager's 'adaptive' lawnmower flight pattern, which adjusts waypoints based on user-defined decision criteria. We add a new criteria to push the flight path toward species of interest. TODO pic.
+</div>
 
 ## Overview
 
@@ -58,7 +86,7 @@ Setup for additional perception capabilities such as SLAM, path planning, explor
 ### Data Flow
 
 ```text
-Frontend ──REST──▶ REST Server ──ROS 2 Topics──▶ ROS Nodes
+Frontend ──▶ REST ──▶ REST Server ──▶ ROS 2 Topics ──▶ ROS Nodes
 ```
 
 ## Development
