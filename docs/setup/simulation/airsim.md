@@ -64,7 +64,7 @@ Our AirSim ROS2 wrapper depends on finding Colosseum/AirSim, so if you jump to t
 cd ~/src
 git clone https://github.com/robotics-88/open-drone-core.git
 cd open-drone-core
-./setup_workspace.sh -s
+./scripts/setup_workspace.sh
 colcon build
 ```
 
@@ -82,12 +82,12 @@ cd ~/src/r88_ardupilot
 ./run_airsim.sh
 ```
 
-In Unreal, press play (shortcut Alt + P).
+In Unreal, press play (shortcut `Alt + P`).
 
 Run the flight stack with:
 ```bash
 cd open-drone-core
-./run_sim.sh do_airsim:=true
+./run_sim.sh do_airsim:=true do_gazebo:=false
 ```
 !!! note
-    Note, when you want to stop the sim, press stop in Unreal (shortcut ESC) BEFORE ctrl+C in ArduPilot, or the window will freeze.
+    Note, when you want to stop the sim, press stop in Unreal (shortcut ESC) BEFORE `Ctrl+C` in ArduPilot, or the window will freeze.
