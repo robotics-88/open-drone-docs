@@ -94,11 +94,8 @@ nav:
           - Custom: setup/custom/index.md
   - System:
       - System: system/index.md
-      - Usage: system/usage.md
-      - Architecture: 
-          - ROS 2 Nodes: system/architecture/nodes.md
-          - Data Flow: system/architecture/dataflow.md
-          - State Machine: system/architecture/statemachine.md
+      - Data Flow: system/dataflow.md
+      - State Machine: system/statemachine.md
   - Development:
       - Development: development/index.md
       - Missions: development/missions.md
