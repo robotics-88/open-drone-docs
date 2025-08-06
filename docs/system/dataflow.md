@@ -55,3 +55,27 @@ flowchart TD
 TODO add image example of nav point types
 
 ## Pointclouds
+
+The pointcloud goes through a number of transformations, and almost every downstream perception node should be using the final pointcloud from the dataflow, called `/cloud_aggregated`. This is the cloud used by path planning, powerline detection, and trail following.
+
+```mermaid
+flowchart TD
+    subgraph Drone
+        Livox[Livox]
+        Jetson[Jetson Orin Nano]
+    end
+
+    subgraph Jetson
+        Livox_wrapper[Livox ROS Wrapper]
+        PCL[PCL Analysis]
+        SLAM[Fast LIO SLAM]
+        TaskMgr[Task Manager]
+        Perception[Multiple ROS2 perception nodes]
+    end
+
+    Livox -->|raw data|Jetson
+    Livox_wrapper -->|raw livox custom pointcloud|SLAM
+    SLAM -->|livox frame registered Ros2 Pointcloud2|TaskMgr
+    TaskMgr -->|map frame registered Ros2 Pointcloud2|PCL
+    PCL -->|aggregated and cleaned Ros2 Pointcloud2|Perception
+```
