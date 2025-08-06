@@ -52,7 +52,11 @@ flowchart TD
 
 ```
 
-TODO add image example of nav point types
+For example, the goal set for the mission could be:
+![Setpoint Mission Example](../images/setpoint-mission.png)
+
+Then the path manager breaks this into subgoals which are sent to the path planner. In this image, explorer manager was enabled, so it produced 10 possible destinations (unselected options in green). The selected target is the pink ball. This was sent to the path planner, resulting in the green path. The path is then converted into MAVROS setpoints, as indicated by the red arrow just next to the drone (indicated by the TF stack) here.
+![Subgoals Examples](../images/setpoint-types.png)
 
 ## Pointclouds
 
