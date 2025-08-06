@@ -46,6 +46,11 @@ Even if you are using a custom drone, it is best to first install all required p
         data_directory:=$data_directory $@ 2>&1 | tee $data_directory/distal_stdout_$date.log
     ```
 
+    Restart the service for the change to take effect:
+    ```
+    sudo systemctl restart drone.service
+    ```
+
 
 That's it! :tada:
 
