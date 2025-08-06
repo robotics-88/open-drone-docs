@@ -43,11 +43,27 @@ Scroll to the end and change the `paths` section to read:
 ```bash
 paths:
   camera:
-    runOnDemand: ffmpeg -f v4l2 -i /dev/video0 -pix_fmt yuv420p -c:v libx264 -preset ultrafast -tune zerolatency -b:v 1M -f rtsp rtsp://localhost:$RTSP_PORT/$MTX_PATH
+    runOnDemand: ffmpeg -f v4l2 -i my_video_device -pix_fmt yuv420p -c:v libx264 -preset ultrafast -tune zerolatency -b:v 1M -f rtsp rtsp://localhost:$RTSP_PORT/$MTX_PATH
     runOnDemandRestart: yes
 ```
-!!! note
-    It's better if the device is symlinked, add instructions on that later TODO.
+Replace `my_video_device` as needed e.g. with `/dev/video0/` or preferably, a symlink. It's better if the device is symlinked in case video devices get reordered on boot. Default devices (mapir, immervision, and seek cameras) get symlinks created by running the [quickstart](../../quickstart.md) script. If adding your own device, create a symlink by:
+
+```bash
+lsusb
+```
+Output should be e.g.
+```bash
+Bus 001 Device 004: ID 0603:8612 Novatek Microelectronics Corp. MAPIR
+```
+Make a file `drone-99.rules` and copy this into it:
+```bash
+ACTION=="add", SUBSYSTEM=="video4linux", ATTRS{idVendor}=="0603", ATTRS{idProduct}=="8612", ATTR{index}=="0", SYMLINK+="mapir"
+```
+The symlink arg can be whatever you choose. Then create the symlink with:
+```bash
+sudo cp drone-99.rules /etc/udev/rules.d/
+sudo udevadm control --reload-rules && sudo udevadm trigger
+```
 
 To test if the stream is working, run with:
 ```bash
