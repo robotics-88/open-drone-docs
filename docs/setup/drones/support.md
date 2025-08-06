@@ -1,8 +1,8 @@
 # Useful Support Software
-These are support libraries we run on IRL drones to make life easier. E.g., simplify ssh, file access, video streaming, etc.
+These are support libraries we run on IRL drones to make life easier. E.g., simplify ssh, file access, video streaming, etc. Note that all of these are set up by default if you use the [quickstart](../../quickstart.md) script. If instead you want to manually install them, instructions follow.
 
 ## mDNS
-For convenience. This will make it so on any connected network, your drone hostname shows up as `drone.local` instead of requiring a specific IP.
+This will make it so on any connected network, your drone hostname shows up as `drone.local` instead of requiring a specific IP.
 ```
 sudo apt update
 sudo apt install avahi-daemon avahi-utils
@@ -22,7 +22,7 @@ From here on, instructions will assume the drone can be pinged/ssh'd at `decco@d
 We use the mediamtx video server so we can easily switch between RTSP, WebRTC, HLS, etc.
 
 !!! tip
-    If you use the [open drone frontend](frontend.md), this stream will be automatically available in the drone interface.
+    If you use the [open drone frontend](frontend.md), after setup, this stream will be automatically available in the drone interface.
 
 Download and extract this release:
 ```bash
@@ -86,3 +86,13 @@ The easiest place to test is in our [frontend](frontend.md), which automatically
 ![RTSP Settings in QGroundControl](../../images/qgc-rtsp.png)
 
 ## File Manager
+
+We provide a file manager service that enables easy file transfer from flight data (videos, pointclouds, logs, ROS2 mcaps). This is a service that runs on the drone but can be accessed through the browser on a device on the same network. Setup using the standalone script:
+
+```bash
+cd ~/src/open-drone-core
+./scripts/steps/07-file-manager.sh
+```
+
+ The files are then accessible at [`http://drone.local:9999`](http://drone.local:9999). It should look like:
+![File Manager Interface](../../images/file-manager.png)
