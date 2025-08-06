@@ -20,7 +20,7 @@ This brings up Gazebo, ArduCopter, ROS2 nodes, and the frontend, even if you sta
 
 Send your first setpoint mission from the frontend at [http://127.0.0.1:8040/](http://127.0.0.1:8040/) by setting the IP in the Mission Panel to localhost and dropping a pin on the map. Watch the drone take off in Rviz or Gazebo.
 
-![Setpoint Mission](images/firstsetpoint.png)
+![Setpoint Mission](images/setpoint-mission.png)
 
 ## Single Script Setup -- Drone
 
