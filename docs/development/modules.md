@@ -1,7 +1,5 @@
 # Perception Modules
-
-!!! note
-    TODO add deets on how to add and expose new perception modules (NTS, requires updates to frontend so they are accessible)
+Passive process that can optionally be enabled during any mission. E.g., thermal hotspot ID could be active during setpoint or lawnmower missions. When modules are added following the instructions on this page, they will be available for toggling on/off for any given mission through our frontend's Mission Center (unless they are set as required by the mission in its config file).
 
 ```json
 {
