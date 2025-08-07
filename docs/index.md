@@ -13,16 +13,16 @@ This system is designed for versatility, from research labs to commercial deploy
 
 <div class="grid cards">
 
-  <a class="card-link" href="system/missions/#thermal-mapping">
+  <a class="card-link" href="system/missions/#goal-point">
     <div class="card-content">
       <span class="md-icon" style="font-size: 2rem;">🔥</span>
-      <h3>Thermal Mapping</h3>
-      <p>This custom mission performs a relatively basic flight pattern, but enforces required thermal perception modules and produces real-time thermal detections.</p>
+      <h3>Goal Point</h3>
+      <p>This custom mission is the most basic: Navigate to a goal point dropped on the map.</p>
       <span class="md-button">→ Learn more</span>
     </div>
   </a>
 
-  <a class="card-link" href="system/missions/#tpowerline-following">
+  <a class="card-link" href="system/missions/#powerline-following">
     <div class="card-content">
       <span class="md-icon" style="font-size: 2rem;">🛠️</span>
       <h3>Powerline Following</h3>
@@ -40,10 +40,10 @@ This system is designed for versatility, from research labs to commercial deploy
     </div>
   </a>
 
-  <a class="card-link" href="system/missions/#subcanopy-navigation">
+  <a class="card-link" href="system/missions/#smart-lawnmower">
     <div class="card-content">
       <span class="md-icon" style="font-size: 2rem;">🌲</span>
-      <h3>Subcanopy Navigation</h3>
+      <h3>Smart Lawnmower</h3>
       <p>This custom mission uses our path manager's 'adaptive' lawnmower flight pattern, which adjusts waypoints based on user-defined decision criteria. E.g., add a new criteria to push the flight path toward species of interest.</p>
       <span class="md-button">→ Learn more</span>
     </div>
